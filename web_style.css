@@ -1,20 +1,51 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-  background: #48f8b7;
+  background: #F9F9F9;
 }
 
 h1 {
-  font-size: 80px;
+  font: "Arial";
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 2%;
+  color: white;
+}
+
+h2 {
+  font: "Times New Roman";
+  font-size: 30px;
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  color: #1D0069;
 }
 
 h3 {
+  font: "Times New Roman";
   font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  color: #1D0069;
+}
+.image{
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+.back-aqua {
+  background-color: #1D0069;
+}
+
+#bold-font {
+  font-weight: bold;
 }
 
 /* Giving our navbar some padding and a background color */
 .navbar {
-  padding: 10px;
-  background: #5191fd;
+  padding: 30px;
+  background: #1D0069;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -51,7 +82,7 @@ h3 {
 
 /* Giving the .post element margin on 3 sides */
 .post {
-  margin-top: 50px;
-  margin-right: 100px;
+  margin-top: 400px;
+  margin-right: 200px;
   margin-left: 100px;
 }
