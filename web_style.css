@@ -1,88 +1,117 @@
-/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-  background: #F9F9F9;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#E7E7E7;
+  }
 
-h1 {
-  font: "Arial";
-  font-size: 30px;
-  position: absolute;
-  top: 0;
-  left: 2%;
-  color: white;
-}
+  .navbar-brand{
+    color: #FFFFFF;
+    font-size:35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2.5%;
+    margin-right: 0%;
+    padding: 12px;
+  }
 
-h2 {
-  font: "Times New Roman";
-  font-size: 30px;
-  position: absolute;
-  top: 10%;
-  left: 2%;
-  color: #1D0069;
-}
+  .navbar-brand:hover{
+    color: #F1BD1E;
+  }
 
-h3 {
-  font: "Times New Roman";
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 2%;
-  color: #1D0069;
-}
-.image{
-  border: 1px solid black;
-  margin: 10px;
-  padding: 10px;
-}
-.back-aqua {
-  background-color: #1D0069;
-}
+  .nav-link{
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size:20px;
+  }
 
-#bold-font {
-  font-weight: bold;
-}
+  .nav-link:hover{
+    color: #F1BD1E;
+  }
 
-/* Giving our navbar some padding and a background color */
+  .navbar {
+    width: 100%;
+    padding: 0%;
+    border: 2.5px solid #FFFFFF;
+  }
+
+  .navbar-nav{
+    margin-left: 70%;
+    padding-right: 20px;
+  }
+
+h1{
+  color: #011162;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2.5px;
+  padding-top: 1px;
+  }
+
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 0%;
+  }
+
+  .navbar-custom {
+    background-color: #011162;
+  }
+
+
+@media(max-width: 800px) {
+
+  .navbar-custom {
+    background-color: #FFFFFF;
+  }
+
+.navbar-brand{
+    color: #011162;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2.5%;
+    margin-right: 0%;
+    padding: 12px;
+  }
 .navbar {
-  padding: 30px;
-  background: #1D0069;
+  background-color: #FFFFFF;
+  border: 2.5px solid #011162;
 }
 
-/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-.navbar li {
-  display: inline-block;
-  padding: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  cursor: pointer;
-  background: #fff;
-  border-radius: 3px;
+.navbar-toggler{
+  background-color: #011162;
+  margin-top: 0px;
+  margin-right: 20px;
+  border-color: #011162;
+  color: #055EBE;
 }
 
-/* Getting rid of the default link styles here */
-.navbar li a {
-  color: #000;
-  text-decoration: none;
+.navbar-nav{
+  background-color: #011162;
+  margin-left: 0%;
+  padding-left: 0%;
+}}
+
+
+body {
+  background-color: #E7E7E7;
 }
 
-/* Styling the header, giving it a height, a background color, and some top padding */
-.header {
+.container-fluid{
+  background-color: #FFFFFF;
+  border:1px solid #056EBE;
+  padding: 10%;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+
+.float-left{
   height: 200px;
-  padding-top: 20px;
-  background: #cdcdcd;
+  margin-right: 30px;
 }
 
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-.header h1 {
-  padding: 60px;
-  margin: 0;
-  color: #000;
-  text-align: center;
-}
-
-/* Giving the .post element margin on 3 sides */
-.post {
-  margin-top: 400px;
-  margin-right: 200px;
-  margin-left: 100px;
+hr.line {
+  border-top: 1px solid;
+  color: #011162;
 }
