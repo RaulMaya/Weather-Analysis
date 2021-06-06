@@ -113,6 +113,13 @@ body {
   margin-left: auto;
 }
 
+.container{
+  background-color: #FFFFFF;
+  border:1px solid #056EBE;
+  padding: 5%;
+  margin-top: 20px;
+  margin-left: center;
+}
 
 .float-left{
   height: 200px;
